@@ -1,9 +1,17 @@
 import React from 'react';
 
+import Frete from './pages/Frete';
 
 function App() {
   return (
-   <h1>Hello World</h1>
+    <div>
+      <h1>Hello World</h1>
+
+      <Frete />
+
+
+    </div>
+    
   );
 }
 

@@ -1,9 +1,10 @@
 import React from 'react';
 
+import './styles.css'
 
 export default function Frete(){
     return(
-        <div>
+        <div className="container">
             <h1 className="Titulo">Calculo</h1>
             <div>
                 <input placeholder="Comprimento"></input>

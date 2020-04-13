@@ -33,7 +33,6 @@ module.exports = {
             }
             const frete = parseFloat((fbase * multiplicador) + tgris).toFixed(2)
             return res.status(200).json({
-                message:"Frete calculado com sucesso!!",
                 frete
             })
         }

@@ -35,7 +35,7 @@ export default function Frete(){
     return(
         <div className="frete-container">         
             <form onSubmit={calcular}>
-                <h1>Calculo</h1>
+                <h1>Cálculo de Frete</h1>
                 <input 
                     placeholder="Comprimento"
                     value={c}
@@ -64,7 +64,7 @@ export default function Frete(){
                 </select>
                 <button className="button" type="submit">Calcular</button>  
             </form>
-            <label>{frete} </label>
+            <label>Frete=R${frete} </label>
 
 
 
